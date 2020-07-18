@@ -46,7 +46,7 @@ function storeFormData() {
         website: form.website.value,
         password: form.password.value
     };
-    // Do something with user data
+    // Do something secure with user data, here we're logging to test
     console.log(user);
 }
 
